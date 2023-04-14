@@ -17,7 +17,9 @@ minimal: true             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "index.md"}
-  - {title: "CV", file: "mengyin.pdf", icon: "far fa-file-pdf"}
+  - {title: "Publications", file: "paper.md"}
+  - {title: "Conferences", file: "conference.md"}
+  - {title: "CV", file: "mengyin.pdf", icon: "home"}
   - {title: "Lab", url: "http://www.miura.rift.mech.tohoku.ac.jp/en/home_en.html"}
   - {title: "Blog", file: "blog.md"}
 

@@ -19,14 +19,14 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "index.md", icon: home}
   - {title: "About Me", file: "aboutme.md", icon: user-circle}
   - {title: "Achievements", file: "publications.md", icon: chevron-circle-right}
-  - {title: "CV", file: "mengyin.pdf", icon: file-pdf-o}
-  - {title: "Lab", url: "http://www.miura.rift.mech.tohoku.ac.jp/en/home_en.html", icon: link}
+  - {title: "Find My CV", file: "mengyin.pdf", icon: file-pdf-o}
+  - {title: "Our Lab", url: "http://www.miura.rift.mech.tohoku.ac.jp/en/home_en.html", icon: link}
   - {title: "Blog", file: "blog.md", icon: bookmark}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope-open-o, url: "mailto:yinmeng1998@gmail.com"}
+  - {title: Send Me Mail, icon: envelope-open-o, url: "mailto:yinmeng1998@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/MengYin-ink"}
-  - {title: Subscribe, icon: linkedin, url: "/feed.xml"}
+  - {title: Linkedin, icon: linkedin, url: "/feed.xml"}
 
 #comments:
  # disqus_shortname: ""    # see https://disqus.com/

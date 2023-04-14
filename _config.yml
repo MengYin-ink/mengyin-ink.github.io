@@ -19,7 +19,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "index.md"}
   - {title: "Publications", file: "paper.md"}
   - {title: "Conferences", file: "conference.md"}
-  - {title: "CV", file: "mengyin.pdf", icon: "home"}
+  - {title: "CV", file: "mengyin.pdf"}
   - {title: "Lab", url: "http://www.miura.rift.mech.tohoku.ac.jp/en/home_en.html"}
   - {title: "Blog", file: "blog.md"}
 

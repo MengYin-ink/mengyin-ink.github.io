@@ -20,13 +20,13 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Publications", file: "paper.md", icon: list}
   - {title: "Conferences", file: "conference.md", icon: list}
   - {title: "CV", file: "mengyin.pdf", icon: user-circle}
-  - {title: "Lab", url: "http://www.miura.rift.mech.tohoku.ac.jp/en/home_en.html", icon: lab}
-  - {title: "Blog", file: "blog.md", icon: pencil}
+  - {title: "Lab", url: "http://www.miura.rift.mech.tohoku.ac.jp/en/home_en.html", icon: link}
+  - {title: "Blog", file: "blog.md", icon: pencil-square-o}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: address-card, url: "mailto:yinmeng1998@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/MengYin-ink"}
-  - {title: Subscribe, icon: linkedin-square, url: "/feed.xml"}
+  - {title: Subscribe, icon: linkedin, url: "/feed.xml"}
 
 #comments:
  # disqus_shortname: ""    # see https://disqus.com/

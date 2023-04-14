@@ -34,4 +34,6 @@ external:                  # shows a footer with social links - for available ic
 
 plugins:
  - jekyll-feed
+ - jekyll-remote-theme
  
+remote_theme: niklasbuschmann/contrast@v2.11

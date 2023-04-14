@@ -16,7 +16,7 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Home", file: "index.md", icon: "fas fa-home"}
+  - {title: "Home", file: "index.md"}
   - {title: "CV", file: "mengyin.pdf", icon: "far fa-file-pdf"}
   - {title: "Lab", url: "http://www.miura.rift.mech.tohoku.ac.jp/en/home_en.html"}
   - {title: "Blog", file: "blog.md"}
@@ -33,4 +33,6 @@ comments:
 plugins:
  - jekyll-feed
  
-theme: jekyll-theme-minimal
+sass:
+  sass_dir: _sass
+  style: compressed

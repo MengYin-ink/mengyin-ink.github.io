@@ -12,9 +12,9 @@ The main focus of my research is computational materials science, and in particu
 ## Educations Background
 * PhD candidate in Finemechanics (2022.10-present)
    * Tohoku University, Sendai, Japan [Advisor: Prof. Ken Suzuki]
-* Master of Engineering, Department of Finemechanics (2020.10-2022.9)
+* MEng, Dept. of Finemechanics (2020.10-2022.9)
    * Tohoku University, Sendai, Japan [Advisor: Prof. Ken Suzuki]
-* Bachelor of Engineering, Department of Mechanical Design Manufacture and Technology (2016.9-2020.6)
+* BEng, Dept. of Mechanical Design Manufacture and Technology (2016.9-2020.6)
    * East China University of Science and Technology (ECUST), Shanghai, China
 
 ## Research Fellowship

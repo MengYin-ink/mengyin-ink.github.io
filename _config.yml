@@ -18,10 +18,10 @@ minimal: true             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "index.md", icon: home}
   - {title: "Publications", file: "paper.md", icon: list}
-  - {title: "Conferences", file: "conference.md", icon: list}
+  - {title: "Conferences", file: "conference.md", icon: comments}
   - {title: "CV", file: "mengyin.pdf", icon: user-circle}
   - {title: "Lab", url: "http://www.miura.rift.mech.tohoku.ac.jp/en/home_en.html", icon: link}
-  - {title: "Blog", file: "blog.md", icon: pencil-square-o}
+  - {title: "Blog", file: "blog.md", icon: bookmark}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: address-card, url: "mailto:yinmeng1998@gmail.com"}

@@ -15,4 +15,6 @@
 ## Professional Memberships
 * The Japan Society of Mechanical Engineers
 * The Japan Society of Applied Physics
+  * Divisions of Applied Physics of Electronic Properties 
+  * Divisions of Thin Film and Surface Physics
 

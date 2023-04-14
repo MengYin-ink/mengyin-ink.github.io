@@ -16,12 +16,12 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Home", file: "index.md"}
-  - {title: "Publications", file: "paper.md"}
-  - {title: "Conferences", file: "conference.md"}
-  - {title: "CV", file: "mengyin.pdf"}
-  - {title: "Lab", url: "http://www.miura.rift.mech.tohoku.ac.jp/en/home_en.html"}
-  - {title: "Blog", file: "blog.md"}
+  - {title: "Home", file: "index.md": icon: home}
+  - {title: "Publications", file: "paper.md", icon: paper}
+  - {title: "Conferences", file: "conference.md", icon: dicussions}
+  - {title: "CV", file: "mengyin.pdf", icon: CV}
+  - {title: "Lab", url: "http://www.miura.rift.mech.tohoku.ac.jp/en/home_en.html", icon: lab}
+  - {title: "Blog", file: "blog.md", icon: writing}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:yinmeng1998@gmail.com"}

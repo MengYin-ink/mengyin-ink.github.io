@@ -26,7 +26,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: address-card, url: "mailto:yinmeng1998@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/MengYin-ink"}
-  - {title: Subscribe, icon: weixin, url: "/feed.xml"}
+  - {title: Subscribe, icon: linkedin-square, url: "/feed.xml"}
 
 #comments:
  # disqus_shortname: ""    # see https://disqus.com/

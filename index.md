@@ -15,7 +15,7 @@ In the next step of my research, I plan to expand my investigations to include e
 
 If you're interested in learning more about my research or collaborating on a project, please don't hesitate to get in touch!
 
----
+
 
 
 

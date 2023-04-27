@@ -64,3 +64,6 @@ c.NotebookApp.notebook_dir = '/work/meng/DC1/sisl' # 设置默认目录
 ```
 ssh -N -f -L localhost:8890:localhost:8890 [用户名]@[服务器地址]
 ```
+
+## reference
+https://www.coonote.com/jupyter-note/jupyter-passwd.html

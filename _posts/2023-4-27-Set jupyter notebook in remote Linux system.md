@@ -6,21 +6,26 @@ layout: post
 ## 1. 登陆远程服务器，创建conda环境
 * 利用ssh登陆远程服务器
 * 创建一个新的conda环境
-``` conda create -n [name] python=[verson x.x]
+```
+conda create -n [name] python=[verson x.x]
 ```
 * 激活这个conda环境
-``` conda activate [name]
+```
+conda activate [name]
 ```
 * 查看conda的环境
-``` conda env list
+```
+conda env list
 ```
 
 ## 2. 远程Linux服务器上：
 ### 利用Anaconda安装
-```conda install jupyter notebook
+```
+conda install jupyter notebook
 ```
 ### 生成Jupyter notebook配置文件
-```jupyter notebook --generate-config
+```
+jupyter notebook --generate-config
 ```
 ### 配置Jupyter notebook密码
 ```
@@ -56,5 +61,6 @@ c.NotebookApp.notebook_dir = '/work/meng/DC1/sisl' # 设置默认目录
 [I 15:46:50.373 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ```
 ## 4. 本地连接远程服务器
-``` ssh -N -f -L localhost:8890:localhost:8890 [用户名]@[服务器地址]
+```
+ssh -N -f -L localhost:8890:localhost:8890 [用户名]@[服务器地址]
 ```

@@ -27,7 +27,7 @@ conda install jupyter notebook
 ```
 jupyter notebook --generate-config
 ```
-### 配置Jupyter notebook密码
+### 利用ipython配置Jupyter notebook密码
 ```
 ipython
 In [1]: from notebook.auth import password
@@ -53,7 +53,12 @@ c.NotebookApp.allow_remote_access = True # 允许远程访问
 c.NotebookApp.notebook_dir = '/work/meng/DC1/sisl' # 设置默认目录
 ```
 ## 3. 在远程服务器启动Jupyter notebook
-* 在远程服务器输入 ``` jupyter notebook ```， 出现下面信息则表示在远程服务器上启动成功：
+* 在远程服务器输入：
+```
+jupyter notebook
+```
+
+出现下面信息则表示在远程服务器上启动成功：
 ```
 [I 15:46:50.372 NotebookApp] Serving notebooks from local directory: /work/meng/DC1/siesta
 [I 15:46:50.372 NotebookApp] Jupyter Notebook 6.4.8 is running at:
@@ -64,12 +69,12 @@ c.NotebookApp.notebook_dir = '/work/meng/DC1/sisl' # 设置默认目录
 ```
 ssh -N -f -L localhost:8890:localhost:8890 [用户名]@[服务器地址]
 ```
-*mac检查本地端口是否被占用以及彻底kill的办法
+* 检查本地端口是否被占用以及彻底kill的办法：
 在terminal中输入：
 ```
 lsof -i tcp:端口
 ```
-如果此端口被占用，则会输出相应的PID号，用一下指令kill：
+* 如果此端口被占用，则会输出相应的PID号，用一下指令kill：
 ```
 kill -9 PID号
 ```

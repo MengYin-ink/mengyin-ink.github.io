@@ -64,6 +64,15 @@ c.NotebookApp.notebook_dir = '/work/meng/DC1/sisl' # 设置默认目录
 ```
 ssh -N -f -L localhost:8890:localhost:8890 [用户名]@[服务器地址]
 ```
+*mac检查本地端口是否被占用以及彻底kill的办法
+在terminal中输入：
+```
+lsof -i tcp:端口
+```
+如果此端口被占用，则会输出相应的PID号，用一下指令kill：
+```
+kill -9 PID号
+```
 
-## reference
+## Reference
 https://www.coonote.com/jupyter-note/jupyter-passwd.html

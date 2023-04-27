@@ -79,6 +79,5 @@ lsof -i tcp:端口
 ```
 kill -9 PID号
 ```
-
 ## Reference
 https://www.coonote.com/jupyter-note/jupyter-passwd.html

@@ -58,7 +58,7 @@ c.NotebookApp.notebook_dir = '/work/meng/DC1/sisl' # 设置默认目录
 jupyter notebook
 ```
 
-出现下面信息则表示在远程服务器上启动成功：
+* 出现下面信息则表示在远程服务器上启动成功：
 ```
 [I 15:46:50.372 NotebookApp] Serving notebooks from local directory: /work/meng/DC1/siesta
 [I 15:46:50.372 NotebookApp] Jupyter Notebook 6.4.8 is running at:
@@ -69,8 +69,8 @@ jupyter notebook
 ```
 ssh -N -f -L localhost:8890:localhost:8890 [用户名]@[服务器地址]
 ```
-* 检查本地端口是否被占用以及彻底kill的办法：
-在terminal中输入：
+### 检查本地端口是否被占用以及彻底kill的办法：
+* 在terminal中输入：
 ```
 lsof -i tcp:端口
 ```

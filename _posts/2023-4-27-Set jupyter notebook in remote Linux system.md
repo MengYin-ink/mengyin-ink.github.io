@@ -40,7 +40,8 @@ Out[2]: 'argon2:xxxxx' #保存这个生成的密钥，后面配置文件的时�
 In [3]: exit()
 ```
 ### 配置jupyter_notebook_config.py文件
-```vim ~/.jupyter/jupyter_notebook_config.py
+```
+vim ~/.jupyter/jupyter_notebook_config.py
 ```
 * 在最后一行加入下面信息：
 ```

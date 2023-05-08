@@ -16,13 +16,12 @@ layout: post
 
 ## 2. 远程Linux服务器上：
 ### 利用Anaconda安装
-
 > conda install jupyter notebook
->
-> ### 生成Jupyter notebook配置文件
+
+### 生成Jupyter notebook配置文件
 > jupyter notebook --generate-config
->
-> ### 利用ipython配置Jupyter notebook密码
+
+### 利用ipython配置Jupyter notebook密码
 > ipython
 > In [1]: from notebook.auth import password
 > In [2]: passwd()
@@ -31,7 +30,8 @@ layout: post
 > Out[2]: 'argon2:xxxxx' #保存这个生成的密钥，后面配置文件的时候需要用到
 > In [3]: exit()
 >
-> ### 配置jupyter_notebook_config.py文件
+
+### 配置jupyter_notebook_config.py文件
 > vim ~/.jupyter/jupyter_notebook_config.py
 >
 > ### 在最后一行加入下面信息：
@@ -44,6 +44,7 @@ layout: post
 > c.NotebookApp.allow_remote_access = True # 允许远程访问
 > c.NotebookApp.notebook_dir = '/work/meng/DC1/sisl' # 设置默认目录
 >
+
 ## 3. 在远程服务器启动Jupyter notebook
 > ### 在远程服务器输入：
 > jupyter notebook
@@ -54,10 +55,12 @@ layout: post
 > [I 15:46:50.372 NotebookApp] http://super2:8890/
 > [I 15:46:50.373 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 >
+
 ## 4. 本地连接远程服务器
 > ssh -N -f -L localhost:8890:localhost:8890 [用户名]@[服务器地址]
 >
-> ### 检查本地端口是否被占用以及彻底kill的办法：
+
+### 检查本地端口是否被占用以及彻底kill的办法：
 * 在terminal中输入：
 > lsof -i tcp:端口
 >

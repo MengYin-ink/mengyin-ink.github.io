@@ -1,5 +1,5 @@
 ---
-title:  ""
+title:  "About me"
 layout: post
 ---
 

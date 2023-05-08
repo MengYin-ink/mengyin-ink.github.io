@@ -23,10 +23,15 @@ layout: post
 ### 利用ipython配置Jupyter notebook密码
 > ipython
 > In [1]: from notebook.auth import password
+>
 > In [2]: passwd()
+>
 > Enter password:  ****(自定义)
+>
 > Verify password: ****
+>
 > Out[2]: 'argon2:xxxxx' #保存这个生成的密钥，后面配置文件的时候需要用到
+>
 > In [3]: exit()
 >
 
@@ -36,11 +41,17 @@ layout: post
 ### 在最后一行加入下面信息：
 >
 > c.NotebookApp.ip = '*' # 允许访问此服务器的 IP，星号表示任意 IP
+>
 > c.NotebookApp.password = u'argon2:xxxxx # 之前生成的密码 hash 字串, 粘贴进去
+>
 > c.NotebookApp.open_browser = False # 运行时不打开本机浏览器
+>
 > c.NotebookApp.port = 8890 # 使用的端口，随意设置，不建议使用默认的8888，感觉经常会被占用
+>
 > c.NotebookApp.enable_mathjax = True # 启用 MathJax
+>
 > c.NotebookApp.allow_remote_access = True # 允许远程访问
+>
 > c.NotebookApp.notebook_dir = '/work/meng/DC1/sisl' # 设置默认目录
 >
 
@@ -50,8 +61,11 @@ layout: post
 >  
 ### 出现下面信息则表示在远程服务器上启动成功：
 > [I 15:46:50.372 NotebookApp] Serving notebooks from local directory: /work/meng/DC1/siesta
+>
 > [I 15:46:50.372 NotebookApp] Jupyter Notebook 6.4.8 is running at:
+>
 > [I 15:46:50.372 NotebookApp] http://super2:8890/
+>
 > [I 15:46:50.373 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 >
 

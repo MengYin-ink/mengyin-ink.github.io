@@ -5,7 +5,6 @@ layout: post
 
 ## 1. 登陆远程服务器，创建conda环境
 ### 利用ssh登陆远程服务器后，创建一个新的conda环境
-
 > conda create -n [name] python=[verson x.x]
 
 * 激活这个conda环境
@@ -33,8 +32,8 @@ layout: post
 
 ### 配置jupyter_notebook_config.py文件
 > vim ~/.jupyter/jupyter_notebook_config.py
->
-> ### 在最后一行加入下面信息：
+
+### 在最后一行加入下面信息：
 >
 > c.NotebookApp.ip = '*' # 允许访问此服务器的 IP，星号表示任意 IP
 > c.NotebookApp.password = u'argon2:xxxxx # 之前生成的密码 hash 字串, 粘贴进去
@@ -46,10 +45,10 @@ layout: post
 >
 
 ## 3. 在远程服务器启动Jupyter notebook
-> ### 在远程服务器输入：
+### 在远程服务器输入：
 > jupyter notebook
 >  
-> ### 出现下面信息则表示在远程服务器上启动成功：
+### 出现下面信息则表示在远程服务器上启动成功：
 > [I 15:46:50.372 NotebookApp] Serving notebooks from local directory: /work/meng/DC1/siesta
 > [I 15:46:50.372 NotebookApp] Jupyter Notebook 6.4.8 is running at:
 > [I 15:46:50.372 NotebookApp] http://super2:8890/

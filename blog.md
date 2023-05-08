@@ -1,5 +1,5 @@
 ---
-layout: post_name
+layout: default
 title: "Blog"
 ---
 

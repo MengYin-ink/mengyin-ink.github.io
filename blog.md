@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_name
 title: "Blog"
 ---
 

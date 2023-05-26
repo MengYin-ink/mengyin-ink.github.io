@@ -72,6 +72,7 @@ layout: post
 ## 4. 本地连接远程服务器
 > ssh -N -f -L localhost:8890:localhost:8890 [用户名]@[服务器地址]
 >
+> 如果本地pc连接多个远程服务器，有多个key，在这里记得使用-i来指定想要用的key名称
 
 ### 检查本地端口是否被占用以及彻底kill的办法：
 * 在terminal中输入：

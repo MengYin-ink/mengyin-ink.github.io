@@ -4,7 +4,7 @@ layout: post
 ---
 
 ## Educationtional Background
-* #### PhD candidate in Finemechanics (2022.10-present)
+* #### PhD student in Finemechanics (2022.10-present)
    * Tohoku University, Sendai, Japan [Advisor: Prof. Ken Suzuki]
 * #### MEng, Dept. of Finemechanics (2020.10-2022.9)
    * Tohoku University, Sendai, Japan [Advisor: Prof. Ken Suzuki]

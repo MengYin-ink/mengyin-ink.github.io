@@ -19,7 +19,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "index.md", icon: home}
   - {title: "About Me", file: "aboutme.md", icon: user-circle}
   - {title: "Achievements", file: "publications.md", icon: chevron-circle-right}
-  - {title: "Find My CV", file: "mengyin.pdf", icon: file}
+  - {title: "Find My CV", file: "Meng Yin-cv.pdf", icon: file}
   - {title: "Our Lab", url: "http://www.miura.rift.mech.tohoku.ac.jp/en/home_en.html", icon: link}
   - {title: "Blog", file: "blog.md", icon: bookmark}
 

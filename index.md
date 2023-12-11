@@ -4,7 +4,7 @@ layout: post
 ---
 # Name: Meng Yin (尹朦）
 
-Hi there! My name is Meng Yin, and I am a PhD candidate in Finemechanics at Tohoku University. My research focuses on the use of first-principles calculations to study graphene-based gas sensors. Specifically, I am investigating the underlying mechanisms that govern the sensitivity and selectivity of these sensors to different gases.
+Hi there! My name is Meng Yin, and I am a PhD student in Finemechanics at Tohoku University. My research focuses on the use of first-principles calculations to study graphene-based gas sensors. Specifically, I am investigating the underlying mechanisms that govern the sensitivity and selectivity of these sensors to different gases.
 
 
 In my current work, I use Denstiy Functional Theory (DFT) calculations to model the behavior of graphene-based gas sensors at the atomic and electronic levels. By combining these simulations with experimental data, I aim to develop a deeper understanding of the sensing mechanism and identify ways to improve the performance of these devices.

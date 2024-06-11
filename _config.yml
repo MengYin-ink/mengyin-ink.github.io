@@ -26,7 +26,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Send Me Mail, icon: envelope, url: "mailto:yinmeng1998@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/MengYin-ink"}
-  - {title: Linkedin, icon: linkedin, url: "www.linkedin.com/in/mengyin-paradoxcat"}
+  - {title: Linkedin, icon: linkedin, url: "linkedin.com/in/mengyin-paradoxcat"}
  
 
 #comments:

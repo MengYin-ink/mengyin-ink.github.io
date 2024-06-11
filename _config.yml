@@ -27,6 +27,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Send Me Mail, icon: envelope, url: "mailto:yinmeng1998@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/MengYin-ink"}
   - {title: Linkedin, icon: linkedin, url: "/feed.xml"}
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 #comments:
  # disqus_shortname: ""    # see https://disqus.com/
